@@ -1,4 +1,23 @@
-﻿var canvasWidth = 1000;
+﻿/// <reference path="quintus/lib/quintus.js" />
+var Q = Quintus()
+        .include("Sprites")
+        .setup({ width: 1000, height: 600 });
+
+Q.load(["../assets/sprite3.png"], function () {
+    var bg = new Q.Sprite({
+        asset: "../assets/sprite3.png",
+        x: Q.el.width / 2,
+        y: Q.el.height / 2,
+        type: Q.SPRITE_NONE
+    });
+
+    Q.gameLoop(function (dt) {
+        Q.clear();
+        bg.render(Q.ctx)
+    });
+});
+
+var canvasWidth = 1000;
 var canvasHeight = 600;
 var FPS = 30;
 var canvas = $('#gameCanvas')[0].getContext('2d');
