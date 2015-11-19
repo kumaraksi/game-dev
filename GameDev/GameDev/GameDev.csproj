@@ -81,7 +81,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\sprite1.jpg" />
+    <Content Include="assets\sprite2.jpg" />
+    <Content Include="assets\sprite3.png" />
+    <Content Include="Game.html" />
     <Content Include="Global.asax" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\game.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
