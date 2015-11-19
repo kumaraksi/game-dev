@@ -90,7 +90,24 @@
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\quintus\.gitignore" />
+    <Content Include="Scripts\quintus\GPL-LICENSE.txt" />
+    <Content Include="Scripts\quintus\Gruntfile.js" />
+    <Content Include="Scripts\quintus\lib\quintus.js" />
+    <Content Include="Scripts\quintus\lib\quintus_2d.js" />
+    <Content Include="Scripts\quintus\lib\quintus_anim.js" />
+    <Content Include="Scripts\quintus\lib\quintus_audio.js" />
+    <Content Include="Scripts\quintus\lib\quintus_input.js" />
+    <Content Include="Scripts\quintus\lib\quintus_scenes.js" />
+    <Content Include="Scripts\quintus\lib\quintus_sprites.js" />
+    <Content Include="Scripts\quintus\lib\quintus_tmx.js" />
+    <Content Include="Scripts\quintus\lib\quintus_touch.js" />
+    <Content Include="Scripts\quintus\lib\quintus_ui.js" />
+    <Content Include="Scripts\quintus\MIT-LICENSE.txt" />
+    <Content Include="Scripts\quintus\SpecRunner.html" />
     <Content Include="Web.config" />
+    <Content Include="Scripts\quintus\package.json" />
+    <Content Include="Scripts\quintus\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -113,6 +130,10 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\quintus\examples\" />
+    <Folder Include="Scripts\quintus\extra\" />
+    <Folder Include="Scripts\quintus\specs\" />
+    <Folder Include="Scripts\quintus\vendor\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
