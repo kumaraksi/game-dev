@@ -81,11 +81,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\background.png" />
     <Content Include="assets\sprite1.jpg" />
     <Content Include="assets\sprite2.jpg" />
     <Content Include="assets\sprite3.png" />
     <Content Include="Game.html" />
     <Content Include="Global.asax" />
+    <Content Include="data\Player.json" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
@@ -93,6 +95,7 @@
     <Content Include="Scripts\quintus\.gitignore" />
     <Content Include="Scripts\quintus\GPL-LICENSE.txt" />
     <Content Include="Scripts\quintus\Gruntfile.js" />
+    <Content Include="Scripts\quintus\lib\quintus-all.js" />
     <Content Include="Scripts\quintus\lib\quintus.js" />
     <Content Include="Scripts\quintus\lib\quintus_2d.js" />
     <Content Include="Scripts\quintus\lib\quintus_anim.js" />
